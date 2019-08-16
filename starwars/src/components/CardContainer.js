@@ -4,6 +4,7 @@ import StarCard from './StarCard';
 import '../components/StarWars.css'
 
 export default function CardContainer(props) {
+    console.log("CardContainer props: ", props)
     return (
         <div className="card-container">
            <StarCard />
