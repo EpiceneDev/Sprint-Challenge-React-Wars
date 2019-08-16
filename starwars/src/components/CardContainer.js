@@ -7,7 +7,7 @@ export default function CardContainer(props) {
     console.log("CardContainer props: ", props)
     return (
         <div className="card-container">
-           <StarCard />
+           <StarCard name={props.data.name} birthYear={props.data.birth_year} eyeColor={props.data.eye_color} hairColor={props.data.hair_color} height={props.data.height}/>
             {/* <Grid columns={3}>
                 <Grid.Row>
                 <Grid.Column>
