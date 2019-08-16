@@ -1,7 +1,7 @@
 import React from 'react'
 import StarCard from './StarCard';
 
-export default function CardContainer() {
+export default function CardContainer(props) {
     return (
         <>
             <Grid columns={3}>
